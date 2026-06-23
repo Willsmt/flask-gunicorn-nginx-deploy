@@ -40,6 +40,12 @@ Browser / Cliente HTTP
 O Gunicorn não é exposto diretamente na rede. A comunicação entre Nginx e Gunicorn acontece via **Unix socket** — um arquivo local invisível para a rede, eliminando a necessidade de abrir portas TCP adicionais.
 
 ---
+## Documentação
+
+Para um guia de estudo completo com a explicação detalhada de cada
+camada, decisões de arquitetura, troubleshooting e glossário, consulte
+a [apostila completa](docs/Apostila-Deploy-Flask-Gunicorn-Nginx.pdf).
+---
 
 ## Estrutura do Projeto
 

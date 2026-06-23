@@ -1,0 +1,18 @@
+# Ambiente virtual
+firstprojectenv/
+
+# Socket gerado em runtime
+*.sock
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
